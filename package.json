@@ -2,11 +2,12 @@
   "name": "plant-soil-bot",
   "version": "1.0.0",
   "description": "Telegram bot for plant soil recipes",
-  "main": "bot.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "node-fetch": "^2.6.7"
   },
   "engines": {
